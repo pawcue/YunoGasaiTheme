@@ -1,0 +1,20 @@
+[username]
+format = '[\[$user\]](red bold) '
+show_always = true
+
+[hostname]
+format = '[\[$hostname\]](red bold) '
+ssh_only = false
+
+[directory]
+format = '[\[$path\]](red dimmed) '
+
+[character]
+format = '$symbol '
+success_symbol = '[❯](red)'
+error_symbol = '[❯](bright-red)'
+
+[cmd_duration]
+format = 'took [$duration]($style) '
+style = 'red'
+min_time = 500
