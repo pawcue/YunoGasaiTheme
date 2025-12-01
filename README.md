@@ -14,7 +14,13 @@
 	cp starship.toml ~/.config/
 	cp config.conf ~/.config/neofetch/config.conf
 
-3. Reload & check
+3. Wallpaper mounting  
+   Copy included wallpaper
+   
+   cp wallpaper.jpg ~/Pictures/
+   # Settings → Background → Add Picture → ~/Pictures/wallpaper.jpg
+   
+5. Reload & check
 
 	exec bash
 	neofetch
